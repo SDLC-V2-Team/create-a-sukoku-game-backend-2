@@ -1,0 +1,13 @@
+.board {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.board tr:nth-child(3n) td {
+  border-bottom: 2px solid black;
+}
+
+.board td:nth-child(3n) {
+  border-right: 2px solid black;
+}
